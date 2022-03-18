@@ -1,0 +1,28 @@
+GET http://localhost:3000/usuarios
+
+###
+
+GET http://localhost:3000/usuarios/623299b24847cae2023a24d0
+
+###
+
+POST http://localhost:3000/usuarios
+Content-Type: application/json
+
+{
+    "nome": "Yakov Teo",
+    "senha": "0022"
+}
+
+###
+
+DELETE http://localhost:3000/usuarios/6234c824aa1ddabe77ef6c32
+
+###
+
+PATCH http://localhost:3000/usuarios/6234c824aa1ddabe77ef6c32
+Content-Type: application/json
+
+{
+    "senha": "3333"
+}
